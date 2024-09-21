@@ -62,7 +62,7 @@ describe('Central de Atendimento ao CLiente TAT', () => {
       .should('have.value', '');
     cy.get('#email')
       .type('italocosta.mateus@gmail.com')
-      .should('have.value', 'italocosta.mateus@gmail.com')
+      .should('have.value', 'italocosta.mateus@gmail.co')
       .clear()
       .should('have.value', '');
     cy.get('#phone')
